@@ -26,11 +26,11 @@
 ## 基本概念
 1. 微信公众号的分类：订阅号，服务号，企业号，三者有[区别](https://kf.qq.com/faq/140806zARbmm140826M36RJF.html)。个人可以申请到订阅号和企业号，但是无法申请认证。
 2. 开发和测试可以使用测试号，申请很方便。[测试号申请入口](http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
-3. 微信公众号的原始ID，AppID（应用ID），AppSecret（应用密钥），[access_token](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140183&token=&lang=zh_CN)，
+3. 微信公众号的原始ID，AppID（应用ID），AppSecret（应用密钥），[access_token](http://mp.weixin.qq.com/wiki/11/0e4b294685f817b95cbed85ba5e82b8f.html)，
 4. URL(服务器地址，必须是80端口或者443端口)，Token(令牌) ，EncodingAESKey(消息加解密密钥)。
 5. openid
 6. 域名：业务域名，JS接口安全域名，OAuth网页授权回调域名。域名必须备案。
-7. 接入指南：[微信公众平台接入指南](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421135319&token=&lang=zh_CN)
+7. 接入指南：[微信公众平台接入指南](http://mp.weixin.qq.com/wiki/17/2d4265491f12608cd170a95559800f2d.html)
 
 ## 准备工作
 1. 用自己的微信申请测试号
@@ -41,13 +41,13 @@
 ## 记账机器人的实现
 1. 下载WeiXinMPSDK的.NetFx 4.0版本，编译部署到本地
 2. 配置NATAPP，确保外网能访问
-3. 处理用户关注事件：[接收事件推送](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140454&token=&lang=zh_CN)
-4. 处理消息自动回复：[接收普通消息](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140453&token=&lang=zh_CN)
+3. 处理用户关注事件：[接收事件推送](http://mp.weixin.qq.com/wiki/2/5baf56ce4947d35003b86a9805634b1e.html)
+4. 处理消息自动回复：[接收普通消息](http://mp.weixin.qq.com/wiki/10/79502792eef98d6e0c6e1739da387346.html)
 
 ## 微信JS SDK demo
 0. 配置JS接口安全域名
-1. 自定义菜单 API ：[自定义菜单创建接口](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141013&token=&lang=zh_CN)
-2. 扫一扫及分享到朋友圈：[微信JS-SDK说明文档](http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421141115&token=&lang=zh_CN)
+1. 自定义菜单 API ：[自定义菜单创建接口](http://mp.weixin.qq.com/wiki/13/43de8269be54a0a6f64413e4dfa94f39.html)
+2. 扫一扫及分享到朋友圈：[微信JS-SDK说明文档](http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html)
 
 ##  入门之后...
 1. OAuth网页授权
